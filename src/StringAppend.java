@@ -7,7 +7,7 @@ public class StringAppend {
 //最慢////////////////////////////////////////////////////////////////////////////	
 		for (int i = 0; i < 100; i++) {
 			System.out.print(i);  
-			if ( i !=100) { 
+			if ( i !=100) {  
 				System.out.print('+');
 				 
 			}
