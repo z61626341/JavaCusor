@@ -9,7 +9,7 @@ public class StringAppend {
 			System.out.print(i);  
 			if ( i !=100) {  
 				System.out.print('+');
-				  
+				  //
 			}
 		}
 //良認為比上面快///////////////////////////////////////////////////////////////////////		
