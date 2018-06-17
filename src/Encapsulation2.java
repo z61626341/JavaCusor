@@ -15,9 +15,9 @@ public class Encapsulation2 {
 		};
 		Scanner sc = new Scanner(System.in);
 		for (CashCard2 cashCard2 : cc2) {
-			System.out.println("CashCard 使用者 : " + cashCard2.number + " , 餘額 : " + cashCard2.balance + " , 剩餘紅利 : " + cashCard2.bonus);
+			System.out.println("CashCard 使用者 : " + cashCard2.getNumber() + " , 餘額 : " + cashCard2.getBalance() + " , 剩餘紅利 : " + cashCard2.getBonus());
 			cashCard2.store(sc.nextInt());
-			System.out.println("此次異動者 : " + cashCard2.number + " , 餘額 : " + cashCard2.balance + " , 剩餘紅利 : " + cashCard2.bonus + "\n");
+			System.out.println("此次異動者 : " + cashCard2.getNumber() + " , 餘額 : " + cashCard2.getBalance() + " , 剩餘紅利 : " + cashCard2.getBonus() + "\n");
 			
 		}
 	}
@@ -25,9 +25,9 @@ public class Encapsulation2 {
 }
 class CashCard2{
 
-	String number;
-	int balance;
-	int bonus;
+	private String number;
+	private int balance;
+	private int bonus;
 	
 	CashCard2(String number,int balance,int bonus){
 		this.number = number;
@@ -73,6 +73,15 @@ class CashCard2{
 			System.out.println("您好，已判定為非法使用，已通報檢調單位。\n5分鐘內會有警方到場。\n並且此卡片將於59秒後爆炸 感謝您^^");
 		}
 		return this.bonus;
+	}
+	public int getBalance() {
+		return balance;
+	}
+	public String getNumber() {
+		return number;
+	}
+	public int getBonus() {
+		return bonus;
 	}
 	
 }
