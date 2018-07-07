@@ -1,4 +1,4 @@
-package constact;
+package Constact;
 
 public class SubClass extends MainClass {
 	SubClass(){
@@ -7,5 +7,8 @@ public class SubClass extends MainClass {
 	}
 	static public void main(String[] arg) {
 		new SubClass();
+		
+		
 	}
+
 }

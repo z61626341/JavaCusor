@@ -1,6 +1,8 @@
+package Encapsulation;
+
 import java.util.Scanner;
 
-public class Encapsulation2 {
+public class CreditCard {
 //儲值卡封裝練習(method封裝)
 //1.儲值滿千送1點紅利點數
 //2.扣款金額小於餘額，通知使用者餘額不足

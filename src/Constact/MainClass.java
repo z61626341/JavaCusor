@@ -1,4 +1,4 @@
-package constact;
+package Constact;
 
 public class MainClass {
 	MainClass(){

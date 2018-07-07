@@ -1,4 +1,4 @@
-package inheritance;
+package Inheritance;
 
 public class SwordsMan extends Role {
 	//因為父類別為abstract class，所以必須實作父類別之抽象方法

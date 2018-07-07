@@ -1,3 +1,5 @@
+package Encapsulation;
+
 public class Encapsulation {
 	public static void main(String[] arg) {
 		CashCard cc = new CashCard("4100",1,9);
