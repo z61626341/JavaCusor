@@ -1,7 +1,7 @@
 package Interface;
 
-public class Human implements Swimmer {
-	private String name;
+public class Human {
+	protected String name;
 	
 	public Human(String name) {
 		this.name = name;
@@ -10,9 +10,5 @@ public class Human implements Swimmer {
 		return this.name;
 	}
 
-	@Override
-	public void swim() {
-		System.out.println("Human Swimming fastly!!");
-	}
 
 }

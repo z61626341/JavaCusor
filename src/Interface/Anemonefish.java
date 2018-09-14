@@ -11,7 +11,7 @@ public class Anemonefish extends Fish {
 
 	@Override
 	public void swim() {
-		System.out.println("Anemonefish Swimming slowly~~~");
+		System.out.println(name + " Anemonefish Swimming slowly~~~");
 	}
 	
 

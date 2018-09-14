@@ -1,17 +1,12 @@
 package Interface;
 
-public class Submarine implements Swimmer {
-	private String name;
+public class Submarine extends Boat implements Diver {
 	
 	public Submarine(String name) {
-		this.name = name;
+		super(name);
 	}
-	public String getName() {
-		return this.name;
-	}
-	@Override
-	public void swim() {
-		System.out.println("Submarine Swimming incredible!!!");
+	public void dive() {
+		System.out.println(name + " O o 。釋放空氣 ~~潛水中~~");
 	}
 
 }
